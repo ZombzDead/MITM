@@ -22,7 +22,10 @@ By responding to LLMNR/NBT-NS network traffic, adversaries may spoof an authorit
     $ sudo pipenv run python Pcredz -i eth0
 
 ### 5. Once a hash is captured attempt to crack.
-### 6. Attempt Pass-the-Hash through NetExec - Only NTLM hashes can be utilized for PtH attacks. This excludes NetNTLMv1 and NetNTLMv2.
+
+### 6. Attempt Pass-the-Hash through NetExec.
+   Only NTLM hashes can be utilized for PtH attacks. This excludes NetNTLMv1 and NetNTLMv2.
+   
 ### 7. If hash is cracked use password in NetExec.
 
 **Additional References:**
